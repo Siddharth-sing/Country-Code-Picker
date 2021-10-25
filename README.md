@@ -2,14 +2,15 @@
 
 ## App's Overview 
 <p>
+
 * In this article, I am going to demonstrate how to create a simple country code picker in an android application through Kotlin. 
 
 * Also, how to validate phone numbers for every country possible.
 <p> 
 
-![CCP Demo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kezbeo2v3tq3x3fw558c.gif)
+<img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kezbeo2v3tq3x3fw558c.gif" height="400px" width="700px">
 
-##Table Of Content
+## Table Of Content
 
 - [Project Setup ](#setup)
 - [Building the app's UI ](#UI)
@@ -88,7 +89,7 @@ The app's UI is broken into two parts :
 
    4. **`app:ccp_countryPreference="IN,US,NZ"`** - `ccp_countryPreference` will set some of the preferred countries on the top, so that they will be easily accessed. seethe exaple below :
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y8ol5ocnb1kcwky8tqtx.png)
+ <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y8ol5ocnb1kcwky8tqtx.png" height="400px" width="700px">
 
 The customized code snippet :
 
