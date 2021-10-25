@@ -89,7 +89,7 @@ The app's UI is broken into two parts :
 
    4. **`app:ccp_countryPreference="IN,US,NZ"`** - `ccp_countryPreference` will set some of the preferred countries on the top, so that they will be easily accessed. seethe exaple below :
 
- <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y8ol5ocnb1kcwky8tqtx.png" height="400px" width="700px">
+ <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y8ol5ocnb1kcwky8tqtx.png" height="500px" width="400px">
 
 The customized code snippet :
 
