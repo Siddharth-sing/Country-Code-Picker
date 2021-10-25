@@ -15,7 +15,6 @@
 - [Project Setup ](#setup)
 - [Building the app's UI ](#UI)
 - [Creating the Backend of the app](#back)
-- [GitHub Repo ](#GitHub)
 - [Writer's Support ❤️](#support)
 
 <a name="setup"></a>
@@ -227,12 +226,6 @@ If the `checkValidity()` function returns true it will show a toast `OTP Sent`, 
 
 
 ---
-
-<a name="GitHub"></a> 
-## GitHub Repository
-* Fork the repository for better and easy understanding and for quick learning.
-
-{% github Siddharth-sing/Country-Code-Picker %}
 
 <a name="support"></a> 
 ## Writer's Support
