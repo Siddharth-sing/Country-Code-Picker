@@ -1,18 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/llPhone"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        >
+
+        <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:ccp_defaultNameCode="IN"
+            app:ccp_defaultCode="91"
+            app:ccp_textColor="#1C2020"
+            android:padding="16dp"
+            app:ccp_countryPreference="IN,US,NZ"/>
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:padding="15dp"
+            android:hint="@string/enter_phone_number"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSendOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llPhone"
+        android:padding="15dp"
+        android:layout_margin="16dp"
+        android:text="Send OTP"
+        android:textStyle="bold"
+        />
+</RelativeLayout>
