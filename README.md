@@ -1,6 +1,6 @@
 # Country-Code-Picker
 
-#App's Overview 
+## App's Overview 
 <p>
 * In this article, I am going to demonstrate how to create a simple country code picker in an android application through Kotlin. 
 
@@ -18,7 +18,7 @@
 - [Writer's Support ❤️](#support)
 
 <a name="setup"></a>
-#Project Setup
+## Project Setup
 
 * Add the below line of code in `build.gradle (project)` under `allprojects`.
 ```
@@ -56,7 +56,7 @@ dependencies {
 ---
 
 <a name="UI"></a>
-#App's UI
+## App's UI
 
 The app's UI is broken into two parts :
 
@@ -166,7 +166,7 @@ There are many attributes present in order to customize the ccp, you can get to 
 ---
 
 <a name="back"></a> 
-#App's Backend
+## App's Backend
 
 * Let's first link all the UI components with `MainActivity.kt`
 
@@ -228,13 +228,13 @@ If the `checkValidity()` function returns true it will show a toast `OTP Sent`, 
 ---
 
 <a name="GitHub"></a> 
-#GitHub Repository
+## GitHub Repository
 * Fork the repository for better and easy understanding and for quick learning.
 
 {% github Siddharth-sing/Country-Code-Picker %}
 
 <a name="support"></a> 
-#Writer's Support
+## Writer's Support
 * If you find the article useful show some ❤️ by staring some of my repositories and following me on dev.to and github.
  <div>
   <p align="middle">
