@@ -1,5 +1,14 @@
 # Country-Code-Picker
 
+
+## Original Article on Dev.to Click below 👇
+
+<a href="https://dev.to/siddharthsing">
+  <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" height="200px" width="500px">
+  </a>
+
+
+
 ## App's Overview 
 <p>
 
